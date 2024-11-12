@@ -22,6 +22,9 @@ project(OpenREALM_ROS1_Bridge)
 
 set(OpenREALM_ROS1_BRIDGE_VERSION "1.0")
 set(OpenREALM_ROS1_BRIDGE_VERSION_NUMBER "1000")
+set(FBOW_INCLUDE_DIRS "/usr/local/include")
+set(FBOW_LIBS "/usr/local/lib/libfbow.so")
+find_package(fbow REQUIRED)
 
 
 ################################################################################
