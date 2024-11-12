@@ -9,6 +9,10 @@ if (NOT OpenCV_FOUND)
 endif()
 find_package(PCL 1.7 REQUIRED) 
 
+set(FBOW_INCLUDE_DIRS "/usr/local/include")
+set(FBOW_LIBS "/usr/local/lib/libfbow.so")
+find_package(fbow REQUIRED)
+
 ####################
 ## Catkin Package ##
 ####################
