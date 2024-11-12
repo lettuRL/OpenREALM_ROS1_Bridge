@@ -102,6 +102,7 @@ catkin_package(
             cmake_modules
         DEPENDS
             OpenCV
+	    fbow
 )
 
 
